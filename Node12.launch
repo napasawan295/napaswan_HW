@@ -1,0 +1,8 @@
+<launch>
+	
+	<node name="Turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	
+	<node name="GUI" pkg="napasawan64" type="gui.py" output="screen">
+	</node>
+</launch>
